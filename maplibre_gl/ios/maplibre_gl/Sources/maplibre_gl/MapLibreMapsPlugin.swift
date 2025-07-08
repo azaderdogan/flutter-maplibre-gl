@@ -26,7 +26,6 @@ public class MapLibreMapsPlugin: NSObject, FlutterPlugin {
                         message: "could not decode arguments",
                         details: nil
                     ))
-                    result(nil)
                     return
                 }
                 NetworkConfiguration.shared.configureHeaders(headers)
